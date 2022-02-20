@@ -176,8 +176,10 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 
 
 /* Colours
---------------------------------------------------------------------------------------------------------------- */
-body{color:#FFFFFF; background-color:#026B8A;}
+
+top line
+- */
+body{color:#FFFFFF; background-color:white;}
 a{color:#0AC6FC;}
 a:active, a:focus{background:transparent !important;}/* IE10 + 11 Bugfix - prevents grey background */
 hr, .borderedbox{border-color:#D7D7D7;}
@@ -201,25 +203,32 @@ input:focus, textarea:focus, *:required:focus{border-color:#0AC6FC !important;}
 .row1{color:#FFFFFF; background-color:#026B8A;}
 .row2{color:#474747; background-color:#F4F4F4;}
 .row3{color:#474747; background-color:#FFFFFF;}
-.row4{color:#FFFFFF; background-color:#01546B;}
-.row5, .row5 a{color:#FFFFFF; background-color:#026B8A;}
+
+/*footor background*/
+/*uni para*/
+
+.row4{color:black; background-color:white;}
+
+/*jug a row bo*/
+.row5, .row5 a{color:#FFFFFF; background-color:gray;}
 
 
 /* Header */
-#header{color:#FFFFFF; background-color:#01546B;}
+/*2nd top and menu*/
+#header{color:black; background-color:white;}
 #header #logo a{color:inherit;}
 
 
-/* Contact Details */
-#ctdetails ul li div i{color:inherit; background-color:rgba(255,255,255,.2);}
-#ctdetails ul li div:hover i{color:#FFFFFF; background-color:#0AC6FC;}
+
 
 
 
 
 /* Footer */
-#footer .heading{color:#FFFFFF;}
-#footer hr, #footer .borderedbox, #footer .linklist li{border-color:rgba(255,255,255,.1);}
+/*footer menu headings*/
+
+#footer .heading{color:orange; font-size: 25px;}
+#footer hr, #footer .borderedbox, #footer .linklist li{border-color:orange;}
 
 #footer input, #footer button{border-color:transparent;}
 #footer input{color:#FFFFFF; background-color:rgba(255,255,255,.2);}
